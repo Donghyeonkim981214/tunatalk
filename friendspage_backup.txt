@@ -1,0 +1,193 @@
+@import "reset.css";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Caveat", cursive;
+}
+
+main {
+  display: flex;
+}
+/*side menu*/
+.side-menu {
+  position: fixed;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(137, 207, 240);
+  width: 60px;
+  height: 100vh;
+  align-items: center;
+  padding-top: 30px;
+}
+.side-menu button {
+  outline: none;
+  font-size: 25px;
+  margin: 20px 0;
+  background-color: rgb(137, 207, 240);
+  opacity: 0.75;
+  border: none;
+}
+.side-menu button:hover {
+  opacity: 1;
+}
+.side-menu button:nth-child(1) {
+  opacity: 1;
+}
+/*title*/
+.category {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 30px;
+  margin-left: 70px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+}
+h1 {
+  font-size: 25px;
+}
+.title button {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+}
+.title button:hover {
+  background-color: gray;
+  opacity: 0.5;
+}
+
+.search {
+  width: 80vw - 35px;
+  height: 30px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  background-color: rgb(204, 204, 204);
+}
+.search {
+  color: gray;
+}
+.search input {
+  background-color: rgb(204, 204, 204);
+  border: none;
+  outline: none;
+  color: black;
+  margin-left: 5px;
+}
+
+/*list*/
+.friends {
+  margin: 10px;
+  margin-top: 100px;
+  margin-left: 70px;
+  width: 80vw;
+}
+.list_profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user_profile {
+  display: flex;
+  margin: 10px 0;
+  width: 80vw;
+}
+.user_profile:hover {
+  background-color: rgb(204, 204, 204);
+}
+.user_profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+.introduce {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+.introduce span:nth-child(1) {
+  font-size: 20px;
+}
+.introduce span:nth-child(2) {
+  font-size: 15px;
+}
+
+.channel_list {
+  border-top: rgb(204, 204, 204) solid 1px;
+  width: 80vw;
+  padding: 5px 0;
+}
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.channel {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+}
+.channel:hover {
+  background-color: rgb(204, 204, 204);
+}
+.list_profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 9px;
+}
+.channel span {
+  margin-left: 10px;
+}
+
+.friends_list {
+  border-top: rgb(204, 204, 204) solid 1px;
+  width: 80vw;
+  padding: 5px 0;
+}
+
+.friend {
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+}
+.friend_introduce {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.friend_introduce span:nth-child(2) {
+  font-size: 14px;
+}
+
+.ad {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(243, 152, 0);
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ad img {
+  width: 90px;
+  height: 70px;
+}

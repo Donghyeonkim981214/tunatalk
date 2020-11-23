@@ -1,0 +1,75 @@
+@import "reset.css";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Caveat", cursive;
+}
+
+main {
+  display: flex;
+}
+/*title*/
+.category {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 30px;
+  margin-left: 70px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+}
+h1 {
+  font-size: 25px;
+}
+.title button {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+}
+
+.add-button {
+  display: flex;
+}
+.add-button button i {
+  font-size: 23px;
+}
+
+.title button:hover {
+  background-color: gray;
+  opacity: 0.5;
+}
+
+.search {
+  width: 80vw - 35px;
+  height: 30px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  background-color: rgb(204, 204, 204);
+}
+.search {
+  color: gray;
+}
+.search input {
+  background-color: rgb(204, 204, 204);
+  border: none;
+  outline: none;
+  color: black;
+  margin-left: 5px;
+}

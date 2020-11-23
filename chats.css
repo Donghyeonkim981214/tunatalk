@@ -1,0 +1,61 @@
+@import "reset.css";
+@import "side.css";
+@import "title.css";
+@import "ad.css";
+@import "screen_size.css";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Caveat", cursive;
+}
+
+.side-menu button:nth-child(2) {
+  opacity: 1;
+}
+
+.chats {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-top: 100px;
+  margin-left: 70px;
+  width: 80vw;
+}
+
+.chat img {
+  width: 40px;
+  height: 40px;
+  border-radius: 9px;
+}
+
+.friends_list {
+  width: 80vw;
+  padding: 5px 0;
+}
+
+.chat {
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+  padding-left: 5px;
+  background-color: white;
+  outline: none;
+  border: none;
+  font-family: "Caveat", cursive;
+}
+.chat:hover {
+  background-color: rgb(204, 204, 204);
+}
+.chat_introduce {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  align-items: flex-start;
+}
+.chat_introduce span:nth-child(2) {
+  font-size: 14px;
+}

@@ -1,0 +1,29 @@
+.ad {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(243, 152, 0);
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  color: black;
+}
+.ad img {
+  width: 90px;
+  height: 70px;
+  animation: heart 2s infinite ease-in-out;
+}
+
+@keyframes heart {
+  0% {
+    transform: scale(0.3);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(0.3);
+  }
+}

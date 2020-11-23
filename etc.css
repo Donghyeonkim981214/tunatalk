@@ -1,0 +1,97 @@
+@import "reset.css";
+@import "side.css";
+@import "title.css";
+@import "ad.css";
+@import "screen_size.css";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Caveat", cursive;
+}
+
+.side-menu button:nth-child(3) {
+  opacity: 1;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin-left: 70px;
+  margin-top: 60px;
+  border-bottom: rgb(204, 204, 204) solid 1px;
+  align-items: center;
+}
+
+.user_profile {
+  display: flex;
+  margin: 10px 0;
+  width: 80vw;
+  padding-left: 5px;
+}
+.user_profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+.introduce {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+.introduce span:nth-child(1) {
+  font-size: 20px;
+}
+.introduce span:nth-child(2) {
+  font-size: 15px;
+}
+
+.extra-features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(204, 204, 204);
+  height: 80px;
+  width: 80vw;
+  border-radius: 10px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  height: 50px;
+  font-size: 20px;
+}
+
+.feature:nth-child(2) {
+  border-left: rgb(238, 238, 238) solid 1px;
+  border-right: rgb(238, 238, 238) solid 1px;
+}
+
+.settings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  height: 90px;
+  font-size: 18px;
+  padding: 0 10px;
+}
+.setting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+.setting:hover {
+  opacity: 1;
+}

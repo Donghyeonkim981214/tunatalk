@@ -1,0 +1,109 @@
+@import "reset.css";
+@import "side.css";
+@import "title.css";
+@import "ad.css";
+@import "screen_size.css";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Caveat", cursive;
+}
+
+.side-menu button:nth-child(1) {
+  opacity: 1;
+}
+
+/*list*/
+.friends {
+  margin: 10px;
+  margin-top: 100px;
+  margin-left: 70px;
+  width: 80vw;
+}
+.list_profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user_profile {
+  display: flex;
+  margin: 10px 0;
+  width: 80vw;
+  padding-left: 5px;
+}
+.user_profile:hover {
+  background-color: rgb(204, 204, 204);
+}
+.user_profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+.introduce {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+.introduce span:nth-child(1) {
+  font-size: 20px;
+}
+.introduce span:nth-child(2) {
+  font-size: 15px;
+}
+
+.channel_list {
+  border-top: rgb(204, 204, 204) solid 1px;
+  width: 80vw;
+  padding: 5px 0;
+}
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.channel {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+.channel:hover {
+  background-color: rgb(204, 204, 204);
+}
+.list_profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 9px;
+}
+.channel span {
+  margin-left: 10px;
+}
+
+.friends_list {
+  border-top: rgb(204, 204, 204) solid 1px;
+  width: 80vw;
+  padding: 5px 0;
+}
+
+.friend {
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+  padding-left: 5px;
+}
+.friend:hover {
+  background-color: rgb(204, 204, 204);
+}
+.friend_introduce {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.friend_introduce span:nth-child(2) {
+  font-size: 14px;
+}

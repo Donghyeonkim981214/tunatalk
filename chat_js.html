@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <title>TuNaTalk</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="chat.css">
+  </head>
+  <body>
+      <div class="chat_information">
+          <div class="participants">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/140px-Unofficial_JavaScript_logo_2.svg.png">
+              <span class="chat_name">JS</span>
+          </div>
+          <button title="return chat-list" onclick="location.href='chats.html'" class="chat"><i class="fas fa-door-open"></i></button>
+      </div>
+
+      <div class="chatting">
+          <div class="participants_chat">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/140px-Unofficial_JavaScript_logo_2.svg.png">
+              <div class="chat_message">
+                  <span id="name">JS</span>
+                  <span>Hello Tuna!</span>
+                  <span>This message is to confirm that you're now enrolled in JS</span>
+              </div>
+          </div>
+          <div class="user_chat">
+            <div class="chat_message">
+                <span id="name">Tuna</span>
+                <span>OK!</span>
+            </div>
+            <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/209/fish_1f41f.png">
+          </div>
+      </div>
+
+      <div class="chat_send">
+          <form class="input">
+              <input type="text">
+              <button type="submit">send</button>
+          </form>
+      </div>
+
+    <div class="not_mobile">
+        <span>This page is optimized for iPhone X size.</span>
+    </div>
+  </body>
+</html>

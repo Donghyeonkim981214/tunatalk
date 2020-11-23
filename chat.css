@@ -1,0 +1,116 @@
+@import "reset.css";
+@import "screen_size.css";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Caveat", cursive;
+}
+
+.chat_information {
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  height: 70px;
+  background-color: rgb(137, 207, 240);
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  padding: 0 10px;
+}
+
+.participants {
+  display: flex;
+  align-items: center;
+}
+
+.participants img {
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.participants span {
+  font-size: 20px;
+}
+
+.chat_information button {
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  background-color: rgb(137, 207, 240);
+  border: none;
+  outline: none;
+}
+
+.chatting {
+  margin-top: 70px;
+  padding-top: 20px;
+  width: 100vw;
+  height: 90vh;
+  background-color: rgb(182 202 218);
+}
+
+.chatting img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.chatting span {
+  margin: 2px 0;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  height: 23px;
+  padding: 0 8px;
+  padding-top: 3px;
+}
+#name {
+  background-color: rgb(182 202 218);
+}
+
+.participants_chat {
+  display: flex;
+  margin: 10px;
+}
+
+.chat_message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user_chat {
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+
+.chat_send {
+  position: fixed;
+  bottom: 0;
+  height: 70px;
+  width: 100vw;
+  background-color: white;
+  padding: 5px;
+}
+
+.chat_send input {
+  border: none;
+  background-color: white;
+  outline: none;
+  font-size: 20px;
+  width: 85vw;
+}
+
+.chat_send button {
+  background-color: rgb(204, 204, 204) 1px solid;
+  outline: none;
+  font-family: "Caveat", cursive;
+}
